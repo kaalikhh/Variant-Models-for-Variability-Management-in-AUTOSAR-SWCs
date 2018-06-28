@@ -1,7 +1,0 @@
-This file is the manifest for the generated code from model 'VariantSubsystemModel2'.
-C:/Users/dell/Documents/MATLAB/VariantSubsystemModel2_autosar_rtw/VariantSubsystemModel2.c
-C:/Users/dell/Documents/MATLAB/VariantSubsystemModel2_autosar_rtw/VariantSubsystemModel2.h
-C:/Users/dell/Documents/MATLAB/VariantSubsystemModel2_autosar_rtw/rtwtypes.h
-C:/Users/dell/Documents/MATLAB/VariantSubsystemModel2_autosar_rtw/defines.txt
-C:/Users/dell/Documents/MATLAB/VariantSubsystemModel2_autosar_rtw/html
-C:\Users\dell\Documents\MATLAB\VariantSubsystemModel2_autosar_rtw\VariantSubsystemModel2_manifest.txt
