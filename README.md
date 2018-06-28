@@ -1,0 +1,1 @@
+# Variant-Models-for-Variability-Management-in-AUTOSAR-SWCs
