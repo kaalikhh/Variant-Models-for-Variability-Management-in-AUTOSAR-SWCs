@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model VariantSubsystemModel2
+Model version                : 1.5
+Simulink Coder version       : Simulink Coder 8.12 (R2017a) 16-Feb-2017
+XML source code generated on : Fri Jun 15 16:26:54 2018
+Model Checksum               : 2315496220 3527603373 2711614720 1430883120
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="0441b13c-30e2-5d6e-e035-7546047c0698">
+            <SHORT-NAME>VariantSubsystemModel2_pkg</SHORT-NAME>
+            <AR-PACKAGES>
+                <AR-PACKAGE UUID="136bb43f-a125-5c37-0fab-4ea2247e89fd">
+                    <SHORT-NAME>VariantSubsystemModel2_dt</SHORT-NAME>
+                    <ELEMENTS>
+                        <IMPLEMENTATION-DATA-TYPE UUID="e35f737f-bd42-5cb7-1697-9ceff825e092">
+                            <SHORT-NAME>Double</SHORT-NAME>
+                            <CATEGORY>VALUE</CATEGORY>
+                            <SW-DATA-DEF-PROPS>
+                                <SW-DATA-DEF-PROPS-VARIANTS>
+                                    <SW-DATA-DEF-PROPS-CONDITIONAL>
+                                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/VariantSubsystemModel2_pkg/VariantSubsystemModel2_dt/SwBaseTypes/float64</BASE-TYPE-REF>
+                                    </SW-DATA-DEF-PROPS-CONDITIONAL>
+                                </SW-DATA-DEF-PROPS-VARIANTS>
+                            </SW-DATA-DEF-PROPS>
+                        </IMPLEMENTATION-DATA-TYPE>
+                    </ELEMENTS>
+                    <AR-PACKAGES>
+                        <AR-PACKAGE UUID="463d5720-129e-5968-769c-9a07f6f268bd">
+                            <SHORT-NAME>Ground</SHORT-NAME>
+                            <ELEMENTS>
+                                <CONSTANT-SPECIFICATION UUID="ea7b1d56-4cdd-5a71-10e8-7ea6c89b3f11">
+                                    <SHORT-NAME>DefaultInitValue_Double</SHORT-NAME>
+                                    <VALUE-SPEC>
+                                        <NUMERICAL-VALUE-SPECIFICATION>
+                                            <SHORT-LABEL>DefaultInitValue_Double</SHORT-LABEL>
+                                            <VALUE>0</VALUE>
+                                        </NUMERICAL-VALUE-SPECIFICATION>
+                                    </VALUE-SPEC>
+                                </CONSTANT-SPECIFICATION>
+                            </ELEMENTS>
+                        </AR-PACKAGE>
+                        <AR-PACKAGE UUID="e53719c5-36e7-5c82-255e-9c0bd578c043">
+                            <SHORT-NAME>SwBaseTypes</SHORT-NAME>
+                            <ELEMENTS>
+                                <SW-BASE-TYPE UUID="bd75d34b-ae69-5b45-9dea-4b193bbaa184">
+                                    <SHORT-NAME>float64</SHORT-NAME>
+                                    <CATEGORY>FIXED_LENGTH</CATEGORY>
+                                    <BASE-TYPE-SIZE>64</BASE-TYPE-SIZE>
+                                    <BASE-TYPE-ENCODING>IEEE754</BASE-TYPE-ENCODING>
+                                    <NATIVE-DECLARATION>float64</NATIVE-DECLARATION>
+                                </SW-BASE-TYPE>
+                            </ELEMENTS>
+                        </AR-PACKAGE>
+                    </AR-PACKAGES>
+                </AR-PACKAGE>
+                <AR-PACKAGE UUID="a0796b87-430a-557d-8f25-f0f48fdfaabc">
+                    <SHORT-NAME>VariantSubsystemModel2_imp</SHORT-NAME>
+                </AR-PACKAGE>
+            </AR-PACKAGES>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>
