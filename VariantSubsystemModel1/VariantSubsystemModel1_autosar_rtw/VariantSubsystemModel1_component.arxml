@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model VariantSubsystemModel1
+Model version                : 1.54
+Simulink Coder version       : Simulink Coder 8.12 (R2017a) 16-Feb-2017
+XML source code generated on : Fri Jun 15 15:46:12 2018
+Model Checksum               : 469946321 2365041557 3601107335 2591028539
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="82b6803c-12f7-561a-0bca-a96504aaf65a">
+            <SHORT-NAME>variant_subsystems_pkg</SHORT-NAME>
+            <AR-PACKAGES>
+                <AR-PACKAGE UUID="4d3c81d2-d457-57a0-f1ab-698b28882aad">
+                    <SHORT-NAME>variant_subsystems_swc</SHORT-NAME>
+                    <ELEMENTS>
+                        <APPLICATION-SW-COMPONENT-TYPE UUID="b5e4083d-851b-50a1-7118-91321862f2b7">
+                            <SHORT-NAME>variant_subsystems</SHORT-NAME>
+                            <PORTS>
+                                <P-PORT-PROTOTYPE UUID="a6b8ac85-6f48-59f8-191f-df0e9c695b12">
+                                    <SHORT-NAME>Out1</SHORT-NAME>
+                                    <PROVIDED-COM-SPECS>
+                                        <NONQUEUED-SENDER-COM-SPEC>
+                                            <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/variant_subsystems_pkg/variant_subsystems_if/Out1/Out1</DATA-ELEMENT-REF>
+                                            <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
+                                            <USES-END-TO-END-PROTECTION>false</USES-END-TO-END-PROTECTION>
+                                            <INIT-VALUE>
+                                                <CONSTANT-REFERENCE>
+                                                    <SHORT-LABEL>DefaultInitValue_Double</SHORT-LABEL>
+                                                    <CONSTANT-REF DEST="CONSTANT-SPECIFICATION">/variant_subsystems_pkg/variant_subsystems_dt/Ground/DefaultInitValue_Double</CONSTANT-REF>
+                                                </CONSTANT-REFERENCE>
+                                            </INIT-VALUE>
+                                        </NONQUEUED-SENDER-COM-SPEC>
+                                    </PROVIDED-COM-SPECS>
+                                    <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/variant_subsystems_pkg/variant_subsystems_if/Out1</PROVIDED-INTERFACE-TREF>
+                                </P-PORT-PROTOTYPE>
+                            </PORTS>
+                            <INTERNAL-BEHAVIORS>
+                                <SWC-INTERNAL-BEHAVIOR UUID="b8fdcdb1-48ef-5f66-0f78-db2aaa3e07a1">
+                                    <SHORT-NAME>variant_subsystems</SHORT-NAME>
+                                    <EVENTS>
+                                        <TIMING-EVENT UUID="09a3920f-ceae-5b69-a783-f91ea7d2f43a">
+                                            <SHORT-NAME>Event_Runnable_Step</SHORT-NAME>
+                                            <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/variant_subsystems_pkg/variant_subsystems_swc/variant_subsystems/variant_subsystems/Runnable_Step</START-ON-EVENT-REF>
+                                            <PERIOD>1</PERIOD>
+                                        </TIMING-EVENT>
+                                    </EVENTS>
+                                    <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
+                                    <RUNNABLES>
+                                        <RUNNABLE-ENTITY UUID="3bd7ecfe-1518-5efb-cac3-7c8740df0830">
+                                            <SHORT-NAME>Runnable_Init</SHORT-NAME>
+                                            <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                            <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                            <SYMBOL>Runnable_Init</SYMBOL>
+                                        </RUNNABLE-ENTITY>
+                                        <RUNNABLE-ENTITY UUID="90b40fc8-d9e4-5cd9-af39-64acccfdb149">
+                                            <SHORT-NAME>Runnable_Step</SHORT-NAME>
+                                            <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
+                                            <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
+                                            <DATA-WRITE-ACCESSS>
+                                                <VARIABLE-ACCESS UUID="b38d2651-d87d-5a57-3696-807909df6f62">
+                                                    <SHORT-NAME>OUT_Out1_Out1</SHORT-NAME>
+                                                    <ACCESSED-VARIABLE>
+                                                        <AUTOSAR-VARIABLE-IREF>
+                                                            <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/variant_subsystems_pkg/variant_subsystems_swc/variant_subsystems/Out1</PORT-PROTOTYPE-REF>
+                                                            <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/variant_subsystems_pkg/variant_subsystems_if/Out1/Out1</TARGET-DATA-PROTOTYPE-REF>
+                                                        </AUTOSAR-VARIABLE-IREF>
+                                                    </ACCESSED-VARIABLE>
+                                                </VARIABLE-ACCESS>
+                                            </DATA-WRITE-ACCESSS>
+                                            <SYMBOL>Runnable_Step</SYMBOL>
+                                        </RUNNABLE-ENTITY>
+                                    </RUNNABLES>
+                                    <SUPPORTS-MULTIPLE-INSTANTIATION>false</SUPPORTS-MULTIPLE-INSTANTIATION>
+                                </SWC-INTERNAL-BEHAVIOR>
+                            </INTERNAL-BEHAVIORS>
+                        </APPLICATION-SW-COMPONENT-TYPE>
+                    </ELEMENTS>
+                </AR-PACKAGE>
+            </AR-PACKAGES>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>

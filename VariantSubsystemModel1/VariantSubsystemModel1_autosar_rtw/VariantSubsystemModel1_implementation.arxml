@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Auto generated XML Component Description for model VariantSubsystemModel1
+Model version                : 1.54
+Simulink Coder version       : Simulink Coder 8.12 (R2017a) 16-Feb-2017
+XML source code generated on : Fri Jun 15 15:46:12 2018
+Model Checksum               : 469946321 2365041557 3601107335 2591028539
+-->
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="82b6803c-12f7-561a-0bca-a96504aaf65a">
+            <SHORT-NAME>variant_subsystems_pkg</SHORT-NAME>
+            <AR-PACKAGES>
+                <AR-PACKAGE UUID="6e55b6d2-7ca8-508a-431f-34721caf8058">
+                    <SHORT-NAME>variant_subsystems_imp</SHORT-NAME>
+                    <ELEMENTS>
+                        <SWC-IMPLEMENTATION UUID="5299e3b7-8a06-54c7-129e-d99e3c749045">
+                            <SHORT-NAME>variant_subsystems</SHORT-NAME>
+                            <CODE-DESCRIPTORS>
+                                <CODE>
+                                    <SHORT-NAME>Code</SHORT-NAME>
+                                    <ARTIFACT-DESCRIPTORS>
+                                        <AUTOSAR-ENGINEERING-OBJECT>
+                                            <SHORT-LABEL>VariantSubsystemModel1_c</SHORT-LABEL>
+                                            <CATEGORY>SWSRC</CATEGORY>
+                                        </AUTOSAR-ENGINEERING-OBJECT>
+                                        <AUTOSAR-ENGINEERING-OBJECT>
+                                            <SHORT-LABEL>VariantSubsystemModel1_h</SHORT-LABEL>
+                                            <CATEGORY>SWHDR</CATEGORY>
+                                        </AUTOSAR-ENGINEERING-OBJECT>
+                                        <AUTOSAR-ENGINEERING-OBJECT>
+                                            <SHORT-LABEL>rtwtypes_h</SHORT-LABEL>
+                                            <CATEGORY>SWHDR</CATEGORY>
+                                        </AUTOSAR-ENGINEERING-OBJECT>
+                                    </ARTIFACT-DESCRIPTORS>
+                                </CODE>
+                            </CODE-DESCRIPTORS>
+                            <PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+                            <RESOURCE-CONSUMPTION>
+                                <SHORT-NAME>RsrcCons_VariantSubsystemModel1</SHORT-NAME>
+                            </RESOURCE-CONSUMPTION>
+                            <SW-VERSION>1.54.1</SW-VERSION>
+                            <USED-CODE-GENERATOR>Embedded Coder 6.12 (R2017a) 16-Feb-2017</USED-CODE-GENERATOR>
+                            <VENDOR-ID>0</VENDOR-ID>
+                            <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/variant_subsystems_pkg/variant_subsystems_swc/variant_subsystems/variant_subsystems</BEHAVIOR-REF>
+                        </SWC-IMPLEMENTATION>
+                    </ELEMENTS>
+                </AR-PACKAGE>
+            </AR-PACKAGES>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>
